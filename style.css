@@ -1,0 +1,190 @@
+body {
+  margin: 0%;
+}
+
+.top {
+  background-image: url(images/1picture.jpg);
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  font-size: 1, 5rem;
+  color: white;
+}
+
+nav a {
+  margin: 20px;
+}
+
+.logo img {
+  width: 70px;
+  height: auto;
+  padding: 20px;
+}
+
+.nav-menu {
+  display: inline-block;
+  padding: 25px;
+  color: white;
+  font-size: 1.5rem;
+  font-family: "PT Sans", sans-serif;
+}
+
+a button {
+  background-color: #4c64ff;
+  color: white;
+  border-style: hidden;
+  border-radius: 15px;
+  padding: 8px 20px;
+}
+
+/*____HERO SECTION_____*/
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  align-items: center;
+  padding-top: 140px;
+  font-family: "PT Sans", sans-serif;
+}
+
+.CTA {
+  background-color: #4c64ff;
+  border-style: hidden;
+  color: white;
+  border-radius: 15px;
+  padding: 25px;
+  font-family: "PT Sans", sans-serif;
+  font-size: 25px;
+}
+
+/* ________info section________*/
+
+.info {
+  display: flex;
+  height: 650px;
+  background-color: rgb(215, 209, 209);
+  color: rgb(60, 60, 60);
+}
+
+.info img {
+  width: 470px;
+  padding: 90px 90px 90px 140px;
+}
+
+.info-text {
+  font-family: "PT Sans", sans-serif;
+  padding: 110px 200px 10px 20px;
+}
+
+.info-text h1 {
+  font-size: 3rem;
+}
+.info-text p {
+  font-size: 1.2rem;
+}
+
+/*_________reviews section________*/
+.reviews h1 {
+  text-align: center;
+  justify-content: space-around;
+  padding-top: 70px;
+  font-family: "PT Sans", sans-serif;
+  color: rgb(60, 60, 60);
+}
+.reviews h3 {
+  color: rgb(60, 60, 60);
+}
+
+.students {
+  display: flex;
+  gap: 30px;
+  height: 600px;
+  margin: 30px 150px;
+  font-family: "PT Sans", sans-serif;
+}
+
+.reviews img {
+  height: 250px;
+}
+
+.reviews p {
+  color: grey;
+}
+/* ________Repeated CTA section___________*/
+
+.cta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "PT Sans", sans-serif;
+  padding: 50px;
+  height: 300px;
+  color: white;
+  background-color: #4c64ff;
+}
+
+.cta h1 {
+  font-size: 3rem;
+}
+
+.cta button {
+  cursor: pointer;
+  border-radius: 20px;
+  border-style: hidden;
+  background-color: white;
+  color: black;
+  font-size: 1rem;
+  font-family: "PT Sans", sans-serif;
+  padding: 8px 20px;
+}
+
+/* __________________footer section____________________*/
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  background-color: rgba(236, 236, 236, 0.724);
+  padding: 50px;
+}
+
+.innerfooter {
+  display: flex;
+  justify-content: space-between;
+  width: 900px;
+  align-items: center;
+}
+.content ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+.content a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.1rem;
+  margin: 5px;
+  display: inline-block;
+}
+
+.contact ul {
+  display: flex;
+  flex-direction: column;
+}
+.contact li {
+  color: black;
+  list-style-type: none;
+}
+
+.footerlogo img {
+  height: 220px;
+}
